@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Yellowtail|Yesteryear');
+
+Body {
+	background-image: url('../images/flowerbath.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: top-left;
+	background-attachment: fixed;
+	
+	font-family: 'Open Sans', sans-serif;
+}
+
+nav, #slogan, .text, li {
+	text-align: center;
+}
+
+a:link {
+	color: #964E9B;
+	display: inline-block;
+  padding: 14px 25px;
+  text-decoration: none;
+  text-align: center; 
+  text-decoration: none;
+}
+
+a:hover, a:active {
+    color: grey;
+}
+
+h2 {
+	font-weight: lighter;
+	padding-bottom: -15px;
+}
+
+ul {
+	list-style-type: none;
+  text-align: center;
+}
+
+.header{
+	background-color: #fff;
+	box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+  line-height: 85px;
+  padding: 15px 0px 10px 0px;
+  position: relative;
+	top: -8px;
+	width: 100%;
+}
+
+.text {
+	background-color: #fff;
+	box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+  margin: 25px 0px 50px 0px;
+  padding: 25px 0px 50px 0px;
+  position: relative;
+	width: 100%;
+}
+
+
+#slogan {
+	color: #964E9B;
+	font-size: 400%;
+	font-family: 'Yellowtail', cursive;
+	padding-top: 450px;
+	text-shadow: 0 2px 0 rgba(0, 0, 0, 0.2);
+	
+}
+
+
