@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet');
+
+html, body {
+  margin: 0px; 
+  padding: 0px;
+	font-family: 'Open Sans', sans-serif;
+
+  background-image: url('../images/flowerbath.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+ul {
+	list-style-type: none;
+  text-align: center;
+}
+
+header {
+	background-color: #FFF;
+  padding: 5px;
+}
+
+nav {
+  text-align: center;
+  padding: 20px;
+}
+
+a:link {
+  text-decoration: none;
+  color: #964E9B;
+    padding: 14px 25px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover, a:active {
+    color: grey;
+}
+
+aside {
+	background-color: #FFF;
+  max-width: 30%;
+}
+
+article {
+	background-color: #FFF;
+  	padding: 20px;
+
+}
+
+footer {
+	background-color: rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  margin: 0px;
+}
+
+div, section {
+}
+
+h2 {
+  font-weight: lighter;
+  font-size: 40px;
+  padding: 0px;
+  margin: 0px;
+}
+
+p{
+  margin: 10px;
+}
+
+.mainImg{
+	height: 600px;
+	overflow: hidden;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+.display{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#two_column {
+    padding: 30px 20px 40px 20px;
+    background-size: 300px;
+    background-color: #fff;
+    position: relative;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+    margin: 600px 0px 0px 0px;
+}
+
+.left {
+    padding: 0px;
+    float: left;
+    width: 33.33%;
+}
+
+.right {
+    float: right;   
+    width: 62%;
+}
+
+#headshot{
+	width: 250px;
+	border-radius: 50%;
+}
+
+#slogan {
+	color: #964E9B;
+	font-size: 400%;
+	font-family: 'Yellowtail', cursive;
+	padding-top: 450px;
+	text-shadow: 0 2px 0 rgba(0, 0, 0, 0.2);
+}
+
+#three_column {
+    background-color: #fff;
+    position: relative;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+    margin: 0px;
+}
+
+.img_size{
+  width: 100%;
+}
+
+#btn_text {
+    position: relative;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+.hero {
+	max-width: 100%;
+}
+
+.footer_logo{
+  width: 20%;
+}
+
+.btn_nav{
+  width: 60%;
+}
